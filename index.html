@@ -1,164 +1,309 @@
 <!DOCTYPE html>
-<html lang="sw"><head><meta charset="utf-8">
+<html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Build Yourself Before You Build Your Life</title>
-<meta name="description" content="Build Yourself Before You Build Your Life: kitabu cha kujijenga, nidhamu binafsi na kubeba wajibu wa maisha yako. Na LUSHAGU. PDF, TSh 7,500.">
-<meta name="theme-color" content="#17140f">
-<meta property="og:type" content="website"><meta property="og:title" content="Build Yourself Before You Build Your Life, na LUSHAGU">
-<meta property="og:description" content="Jijenge. Jitawale. Wajibika. Kisha jenga maisha unayotaka. Kitabu cha PDF, TSh 7,500.">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E%F0%9F%93%98%3C/text%3E%3C/svg%3E">
-
-<style>
-:root{--bg:#faf7f2;--card:#fff;--ink:#1d1a16;--mute:#6b645a;--acc:#b4531a;--accink:#fff;--line:#e6dfd3;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
-@media(prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#17140f;--card:#211d17;--ink:#f1ebe0;--mute:#a99f90;--acc:#e0803f;--accink:#17140f;--line:#363024}}
-:root[data-theme="dark"]{--bg:#17140f;--card:#211d17;--ink:#f1ebe0;--mute:#a99f90;--acc:#e0803f;--accink:#17140f;--line:#363024}
-*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:env(safe-area-inset-top,0px)}
-body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.65 Georgia,"Times New Roman",serif}
-.w{max-width:720px;margin:0 auto;padding:0 20px}
-section{padding:44px 0;border-top:1px solid var(--line)}
-h1{font-size:clamp(30px,8vw,46px);line-height:1.1;margin:0 0 12px;letter-spacing:-.5px}
-h2{font-size:26px;margin:0 0 14px}
-p{margin:0 0 14px}.mute{color:var(--mute)}
-.hero{padding:52px 0 40px;text-align:center}
-.tag{font:600 13px/1 system-ui,sans-serif;letter-spacing:2px;text-transform:uppercase;color:var(--acc);margin-bottom:14px}
-.btn{display:inline-block;background:var(--acc);color:var(--accink);font:600 17px/1 system-ui,sans-serif;padding:16px 26px;border-radius:12px;text-decoration:none;border:0;cursor:pointer}
-.btn.alt{background:transparent;color:var(--acc);border:2px solid var(--acc)}
-.cards{display:grid;gap:12px}
-.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px 18px}
-details{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px 16px;margin-bottom:10px}
-summary{font:600 16px/1.4 system-ui,sans-serif;cursor:pointer}
-details ol,details ul{margin:10px 0 0;padding-left:22px;color:var(--mute)}
-.shots{display:flex;gap:14px;overflow-x:auto;padding-bottom:10px;scroll-snap-type:x mandatory}
-.shots figure{margin:0;flex:0 0 72%;max-width:280px;scroll-snap-align:start}
-.shots img{width:100%;border-radius:10px;border:1px solid var(--line);display:block}
-.shots figcaption{font:13px system-ui,sans-serif;color:var(--mute);margin-top:6px;text-align:center}
-.price{font:700 38px/1 system-ui,sans-serif;color:var(--acc);margin:6px 0 18px}
-.pay{background:var(--card);border:2px solid var(--acc);border-radius:16px;padding:20px;margin:18px 0}
-.num{font:700 26px/1.2 system-ui,sans-serif;letter-spacing:1px;word-break:break-all}
-.row{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin-top:10px}
-ol.steps{padding-left:22px}ol.steps li{margin-bottom:8px}
-label{display:block;font:600 14px system-ui,sans-serif;margin:14px 0 6px}
-input,textarea{width:100%;font:16px system-ui,sans-serif;padding:12px;border-radius:10px;border:1px solid var(--line);background:var(--bg);color:var(--ink)}
-textarea{min-height:110px;resize:vertical}
-.note{font:14px/1.5 system-ui,sans-serif;color:var(--mute)}
-footer{padding:28px 0 40px;text-align:center;font:14px system-ui,sans-serif;color:var(--mute);border-top:1px solid var(--line)}
-.cover{display:block;margin:0 auto 22px;width:min(62vw,260px);height:auto;border-radius:8px;box-shadow:0 14px 40px rgba(0,0,0,.35)}
-.gal{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}@media(min-width:600px){.gal{grid-template-columns:repeat(3,1fr)}}
-.gal button{all:unset;cursor:pointer;display:block;border-radius:10px;overflow:hidden;border:1px solid var(--line);background:var(--card)}
-.gal button:focus-visible{outline:3px solid var(--acc);outline-offset:2px}
-.gal .th{height:230px;overflow:hidden}.gal img{width:100%;display:block;object-fit:cover;object-position:top}
-.gal span{display:block;padding:8px 10px;font:600 13px/1.3 system-ui,sans-serif;color:var(--mute)}
-#lb{position:fixed;inset:0;background:rgba(0,0,0,.92);display:none;flex-direction:column;align-items:center;justify-content:center;z-index:50;padding:env(safe-area-inset-top,0px) 12px env(safe-area-inset-bottom,0px)}
-#lb.on{display:flex}#lb .sc{overflow:auto;-webkit-overflow-scrolling:touch;max-height:74vh;width:100%;max-width:620px;border-radius:6px;background:#fff}#lb .sc img{width:100%;display:block}.track{font:600 15px/1.6 system-ui,sans-serif;margin-top:14px}.track a{color:var(--acc)}
-#lb .cap{color:#eee;font:15px system-ui,sans-serif;margin:10px 0}
-#lb .bar{display:flex;gap:10px}#lb button{font:600 15px system-ui,sans-serif;padding:12px 18px;border-radius:10px;border:0;background:#f1ebe0;color:#17140f;cursor:pointer}
-[hidden]{display:none!important}.lead{font-size:20px;margin:0 0 10px}h1{font-size:clamp(26px,7vw,42px)}
-.learn{display:grid;gap:10px;grid-template-columns:1fr}@media(min-width:560px){.learn{grid-template-columns:1fr 1fr}}
-.lc{display:flex;align-items:center;gap:12px;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 16px;font:600 15px/1.4 system-ui,sans-serif}
-.lc i{width:10px;height:10px;border-radius:2px;background:var(--acc);flex:none}
-#mus{position:fixed;right:14px;bottom:calc(14px + env(safe-area-inset-bottom,0px));z-index:40;display:flex;align-items:center;gap:10px;background:var(--acc);color:var(--accink);border:0;border-radius:999px;padding:12px 18px;font:600 14px/1 system-ui,sans-serif;cursor:pointer;box-shadow:0 6px 22px rgba(0,0,0,.35)}
-#mus:focus-visible{outline:3px solid var(--ink);outline-offset:3px}
+<title>Build Yourself Before You Build Your Life | Ntemi M. Lushagu</title>
+<meta name="description" content="Build Yourself Before You Build Your Life by Ntemi M. Lushagu: a personal development book for men on discipline, self-control, responsibility and character.">
+<meta name="keywords" content="Build Yourself Before You Build Your Life, Ntemi M. Lushagu, Lushagu, personal development book for men, self-discipline, self-control, responsibility, character, Tanzania, Swahili">
+<meta name="author" content="Ntemi M. Lushagu">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<link rel="canonical" href="https://buildyourself-iaiu.onrender.com/">
+<meta name="theme-color" content="#14110e">
+<!-- Google Search Console: paste the verification meta tag from Google here, e.g. <meta name="google-site-verification" content="YOUR_CODE"> -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="BUILD YOURSELF">
+<meta property="og:title" content="Build Yourself Before You Build Your Life | Ntemi M. Lushagu">
+<meta property="og:description" content="A personal development book for men on discipline, self-control, responsibility and character. Digital PDF by Ntemi M. Lushagu.">
+<meta property="og:url" content="https://buildyourself-iaiu.onrender.com/">
+<meta property="og:image" content="https://buildyourself-iaiu.onrender.com/og-image.jpg">
+<meta property="og:image:secure_url" content="https://buildyourself-iaiu.onrender.com/og-image.jpg">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Cover of Build Yourself Before You Build Your Life by Ntemi M. Lushagu">
+<meta property="og:locale" content="en_US"><meta property="og:locale:alternate" content="sw_TZ">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Build Yourself Before You Build Your Life | Ntemi M. Lushagu">
+<meta name="twitter:description" content="A personal development book for men on discipline, self-control, responsibility and character. Digital PDF by Ntemi M. Lushagu.">
+<meta name="twitter:image" content="https://buildyourself-iaiu.onrender.com/og-image.jpg">
+<meta name="twitter:image:alt" content="Cover of Build Yourself Before You Build Your Life by Ntemi M. Lushagu">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%2314110e'/%3E%3Ctext x='32' y='46' font-size='40' font-family='Georgia,serif' font-weight='700' fill='%23d9b865' text-anchor='middle'%3EB%3C/text%3E%3C/svg%3E">
+<link rel="preload" as="image" href="cover.jpg">
+<script>document.documentElement.className="js"</script>
+<script type="application/ld+json">{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "WebSite",
+   "@id": "https://buildyourself-iaiu.onrender.com/#website",
+   "url": "https://buildyourself-iaiu.onrender.com/",
+   "name": "Build Yourself Before You Build Your Life",
+   "alternateName": "BUILD YOURSELF",
+   "inLanguage": [
+    "en",
+    "sw"
+   ],
+   "description": "Build Yourself Before You Build Your Life by Ntemi M. Lushagu: a personal development book for men on discipline, self-control, responsibility and character.",
+   "publisher": {
+    "@id": "https://buildyourself-iaiu.onrender.com/#author"
+   }
+  },
+  {
+   "@type": "Person",
+   "@id": "https://buildyourself-iaiu.onrender.com/#author",
+   "name": "Ntemi M. Lushagu",
+   "alternateName": "Lushagu",
+   "url": "https://buildyourself-iaiu.onrender.com/",
+   "mainEntityOfWork": {
+    "@id": "https://buildyourself-iaiu.onrender.com/#book"
+   }
+  },
+  {
+   "@type": "Book",
+   "@id": "https://buildyourself-iaiu.onrender.com/#book",
+   "name": "Build Yourself Before You Build Your Life",
+   "alternativeHeadline": "Build Yourself. Then Build Your Life.",
+   "url": "https://buildyourself-iaiu.onrender.com/",
+   "image": "https://buildyourself-iaiu.onrender.com/cover.jpg",
+   "author": {
+    "@id": "https://buildyourself-iaiu.onrender.com/#author"
+   },
+   "inLanguage": "en",
+   "genre": "Personal development",
+   "bookFormat": "https://schema.org/EBook",
+   "description": "A personal development book for men about discipline, self-control, self-respect, responsibility, relationships, money, work and character, written for young men entering adulthood and for older men who want to keep growing.",
+   "audience": {
+    "@type": "Audience",
+    "audienceType": "Men, especially young men entering adulthood"
+   },
+   "isAccessibleForFree": false,
+   "offers": {
+    "@type": "Offer",
+    "url": "https://buildyourself-iaiu.onrender.com/#buy",
+    "price": "7500",
+    "priceCurrency": "TZS",
+    "availability": "https://schema.org/InStock"
+   }
+  }
+ ]
+}</script>
+<style>:root{--ink:#14110e;--ink2:#1c1814;--ivory:#f7f2e8;--cream:#eee6d3;--gold:#b8923a;--gold2:#d9b865;--text:#24201a;--mute:#645c4e;--dmute:#b9af9c;--line:#ddd2bb;--dline:#37322b;--serif:"Iowan Old Style","Palatino Linotype",Palatino,"Book Antiqua",Georgia,"Times New Roman",serif;--sans:system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;box-sizing:border-box}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:80px}
+body{margin:0;background:var(--ivory);color:var(--text);font:18px/1.7 var(--serif);-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
+img{max-width:100%}
+[hidden]{display:none!important}
+.w{max-width:1120px;margin:0 auto;padding:0 22px}
+.prose{max-width:720px}
+h1,h2,h3{margin:0;font-weight:700;line-height:1.14;letter-spacing:-.01em}
+h2{font-size:clamp(28px,4.2vw,44px);margin-bottom:22px}
+h3{font-size:clamp(20px,2.4vw,26px);margin:44px 0 16px}
+p{margin:0 0 16px}
+.skip{position:absolute;left:-999px;top:0;background:#fff;color:#000;padding:10px 16px;z-index:100;font:600 14px var(--sans)}.skip:focus{left:8px;top:8px}
+.eyebrow{display:flex;align-items:center;gap:14px;margin:0 0 16px;font:700 12px/1 var(--sans);letter-spacing:.24em;text-transform:uppercase;color:var(--gold)}
+.eyebrow::before{content:"";width:38px;height:1px;background:currentColor}
+section{padding:92px 0}
+.dark{background:var(--ink);color:#f1ebdd}.dark .eyebrow{color:var(--gold2)}.dark .mute{color:var(--dmute)}
+.alt{background:var(--cream)}.mute{color:var(--mute)}
+a{color:#8a6a1f}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;font:700 14px/1.1 var(--sans);letter-spacing:.1em;text-transform:uppercase;padding:18px 28px;border:1.5px solid var(--gold);background:var(--gold);color:#17130d;text-decoration:none;cursor:pointer;border-radius:2px;transition:background .2s,transform .2s,box-shadow .2s}
+.btn:hover{background:var(--gold2);transform:translateY(-1px);box-shadow:0 10px 24px -12px rgba(184,146,58,.8)}
+.btn.ghost{background:transparent;color:var(--gold2)}.btn.ghost:hover{background:rgba(217,184,101,.12);box-shadow:none}
+.btn.dk{background:transparent;color:#7a5c17}.btn.dk:hover{background:rgba(184,146,58,.12);box-shadow:none}
+.btn:focus-visible,summary:focus-visible,#langbar button:focus-visible,.gal button:focus-visible,#mus:focus-visible,#lb button:focus-visible,a:focus-visible,input:focus-visible,textarea:focus-visible{outline:3px solid #fff;outline-offset:3px;box-shadow:0 0 0 6px #14110e}
+.nav{position:sticky;top:0;z-index:60;background:rgba(20,17,14,.94);-webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px);border-bottom:1px solid var(--dline);padding-top:env(safe-area-inset-top,0px)}
+.nav .w{display:flex;align-items:center;gap:20px;height:66px}
+.brand{font:700 13px/1 var(--sans);letter-spacing:.28em;color:#f4ecd8;text-decoration:none;white-space:nowrap}.brand b{color:var(--gold2);font-weight:700}
+.nav nav{margin-left:auto}.nav ul{display:flex;gap:28px;list-style:none;margin:0;padding:0}
+.nav ul a{font:600 12px var(--sans);letter-spacing:.14em;text-transform:uppercase;color:#cfc5b0;text-decoration:none}.nav ul a:hover{color:#fff}
+#langbar{display:flex;border:1px solid var(--dline);border-radius:999px;padding:3px}
+#langbar button{all:unset;cursor:pointer;font:700 12px/1 var(--sans);letter-spacing:.06em;padding:8px 12px;border-radius:999px;color:#b9af9c}
+#langbar button[aria-pressed="true"]{background:var(--gold);color:#17130d}
+.nbuy{padding:12px 18px;font-size:12px}
+@media(max-width:860px){.nav nav{display:none}#langbar{margin-left:auto}.nav .w{gap:12px}}
+@media(max-width:380px){.brand{letter-spacing:.16em;font-size:12px}}
+.hero{background:radial-gradient(900px 520px at 76% 40%,rgba(184,146,58,.22),transparent 62%),linear-gradient(180deg,#14110e,#1b1713);color:#f4ecd8;padding:80px 0 92px;overflow:hidden}
+.hero .w{display:grid;grid-template-columns:1.05fr .95fr;gap:56px;align-items:center}
+.hero h1{font-size:clamp(34px,5.6vw,64px);text-transform:uppercase;line-height:1.04;letter-spacing:.005em}
+.tagline{font:italic 400 clamp(22px,2.8vw,32px)/1.3 var(--serif);color:var(--gold2);margin:22px 0 18px}
+.sub{color:#cfc5b0;max-width:540px;margin:0 0 30px}
+.cta{display:flex;flex-wrap:wrap;gap:14px}
+.badges{display:flex;flex-wrap:wrap;gap:10px 24px;list-style:none;padding:0;margin:34px 0 0;font:600 12px var(--sans);letter-spacing:.12em;text-transform:uppercase;color:var(--dmute)}
+.badges li::before{content:"\25C6";color:var(--gold2);margin-right:9px;font-size:9px}
+.bookwrap{perspective:1500px;display:flex;justify-content:center;position:relative}
+.book3d{position:relative;width:min(74vw,350px);transform:rotateY(-15deg) rotateX(2deg);animation:float 7s ease-in-out infinite}
+.book3d img{display:block;width:100%;height:auto;border-radius:2px 5px 5px 2px;box-shadow:0 46px 70px -24px rgba(0,0,0,.85),22px 22px 46px rgba(0,0,0,.4)}
+.book3d::after{content:"";position:absolute;inset:0;border-radius:2px 5px 5px 2px;pointer-events:none;background:linear-gradient(90deg,rgba(0,0,0,.4),rgba(255,255,255,.1) 2.5%,transparent 8%,transparent 90%,rgba(0,0,0,.2))}
+@keyframes float{0%,100%{transform:rotateY(-15deg) rotateX(2deg) translateY(0)}50%{transform:rotateY(-15deg) rotateX(2deg) translateY(-9px)}}
+@media(max-width:860px){.hero{padding:48px 0 64px}.hero .w{grid-template-columns:1fr;gap:42px}.bookwrap{order:-1}.hero .hcopy{text-align:center}.sub{margin-left:auto;margin-right:auto}.cta,.badges{justify-content:center}.eyebrow{justify-content:center}}
+.lead2{font-size:clamp(21px,2.4vw,26px);line-height:1.45;color:#1c1813}
+.pq{margin:48px 0;padding:6px 0 6px 28px;border-left:3px solid var(--gold);font:italic 400 clamp(25px,3.6vw,38px)/1.3 var(--serif);color:#2a2218}
+.pq cite{display:block;margin-top:16px;font:700 12px var(--sans);letter-spacing:.2em;text-transform:uppercase;color:var(--mute);font-style:normal}
+.learn{counter-reset:c;display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:14px}
+.lc{display:flex;gap:16px;align-items:flex-start;background:#fbf8f1;border:1px solid var(--line);padding:22px;font:600 16px/1.4 var(--sans);color:#2a251d}
+.lc i{flex:none;width:34px;height:34px;border:1px solid var(--gold);color:#8a6a1f;display:grid;place-items:center;font:700 12px var(--sans);font-style:normal;letter-spacing:.04em}
+.lc i::before{counter-increment:c;content:counter(c,decimal-leading-zero)}
+.split{display:grid;grid-template-columns:.8fr 1.2fr;gap:64px;align-items:start}
+@media(max-width:860px){.split{grid-template-columns:1fr;gap:28px}section{padding:60px 0}}
+details{border-top:1px solid #cfc3a8}details:last-of-type{border-bottom:1px solid #cfc3a8}
+summary{list-style:none;cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:16px;padding:20px 0;font:700 17px/1.3 var(--sans)}
+summary::-webkit-details-marker{display:none}summary::after{content:"+";font:400 26px/1 var(--sans);color:var(--gold)}details[open] summary::after{content:"\2212"}
+details ol{margin:0 0 20px;padding:0 0 0 24px;color:#4a4336;font-size:17px}details li{padding:3px 0 3px 6px}
+.gal{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}
+@media(min-width:640px){.gal{grid-template-columns:repeat(3,1fr)}}@media(min-width:980px){.gal{grid-template-columns:repeat(5,1fr)}}
+.gal button{all:unset;cursor:pointer;display:block;transition:transform .25s}.gal button:hover{transform:translateY(-4px)}
+.gal .th{aspect-ratio:3/4;overflow:hidden;background:#fff;border:1px solid var(--dline);box-shadow:0 18px 30px -18px #000}
+.gal img{width:100%;height:100%;display:block;object-fit:cover;object-position:top}
+.gal span{display:block;padding:10px 2px 0;font:600 12px/1.4 var(--sans);letter-spacing:.04em;color:var(--dmute)}
+.buy{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:center;margin-top:12px}
+.shot img{display:block;width:100%;height:auto;border:1px solid var(--line);box-shadow:0 34px 60px -34px rgba(20,17,14,.7)}
+.card{background:#fff;border:1px solid var(--line);padding:38px;box-shadow:0 30px 60px -40px rgba(20,17,14,.5);border-top:4px solid var(--gold)}
+.btitle{font:700 12px/1.5 var(--sans);letter-spacing:.2em;color:#8a6a1f}.by{color:var(--mute);margin:6px 0 4px}
+.price{font:700 clamp(40px,6vw,54px)/1 var(--serif);color:#14110e;margin:8px 0 22px}
+.ticks{list-style:none;padding:0;margin:0 0 28px}.ticks li{position:relative;padding-left:32px;margin-bottom:10px}.ticks li::before{content:"\2713";position:absolute;left:0;color:var(--gold);font-weight:700}
+@media(max-width:860px){.buy{grid-template-columns:1fr;gap:32px}.card{padding:28px 22px}}
+.checkout{max-width:720px;margin:56px auto 0;background:#fff;border:1px solid var(--line);padding:34px}
+.steps{padding-left:22px}.steps li{margin-bottom:10px}
+.pay{border:2px solid var(--gold);background:#fbf6ea;padding:22px;margin:22px 0;text-align:center}
+.num{font:700 clamp(26px,5vw,34px)/1.2 var(--sans);letter-spacing:.04em;margin:6px 0}
+.row{display:flex;gap:12px;align-items:center;justify-content:center;flex-wrap:wrap;margin-top:14px}
+.note{font:14px/1.55 var(--sans);color:var(--mute)}
+label{display:block;font:700 13px var(--sans);letter-spacing:.04em;margin:18px 0 8px}
+input,textarea{width:100%;font:16px var(--sans);padding:14px;border:1px solid #cfc3a8;background:#fffdf8;color:#1c1813;border-radius:2px}
+textarea{min-height:120px;resize:vertical}
+.track{font:600 15px/1.6 var(--sans);margin:18px 0 0}.track a{color:#8a6a1f}.dark .track a,footer .track a{color:var(--gold2)}
+footer{background:var(--ink);color:#d8cfbb;padding:56px 0 40px;border-top:1px solid var(--dline)}
+.fgrid{display:grid;grid-template-columns:1fr 1fr;gap:32px;align-items:start}@media(max-width:700px){.fgrid{grid-template-columns:1fr}}
+footer .tagline{font-size:20px;margin:12px 0 0}.copy{margin-top:36px;padding-top:22px;border-top:1px solid var(--dline);font:13px/1.6 var(--sans);color:var(--dmute)}
+.js .rv{opacity:0;transform:translateY(16px);transition:opacity .7s ease,transform .7s ease}.js .rv.in{opacity:1;transform:none}
+@media(prefers-reduced-motion:reduce){.book3d{animation:none}.js .rv{opacity:1;transform:none;transition:none}html{scroll-behavior:auto}.btn,.gal button{transition:none}}
+#lb{position:fixed;inset:0;background:rgba(10,8,6,.94);display:none;flex-direction:column;align-items:center;justify-content:center;z-index:80;padding:env(safe-area-inset-top,0px) 12px env(safe-area-inset-bottom,0px)}
+#lb.on{display:flex}#lb .sc{overflow:auto;-webkit-overflow-scrolling:touch;max-height:76vh;width:100%;max-width:640px;background:#fff}#lb .sc img{width:100%;display:block}
+#lb .cap{color:#eee;font:14px var(--sans);margin:12px 0}#lb .bar{display:flex;gap:10px}
+#lb button{font:700 13px var(--sans);letter-spacing:.08em;text-transform:uppercase;padding:13px 20px;border:0;background:#f1ebe0;color:#17140f;cursor:pointer}
+#mus{position:fixed;right:14px;bottom:calc(14px + env(safe-area-inset-bottom,0px));z-index:70;display:flex;align-items:center;gap:10px;background:var(--gold);color:#17130d;border:0;border-radius:999px;padding:13px 18px;font:700 13px/1 var(--sans);cursor:pointer;box-shadow:0 8px 24px rgba(0,0,0,.45)}
 .eq{display:inline-flex;gap:3px;align-items:flex-end;height:16px}.eq i{display:block;width:3px;height:6px;background:currentColor;border-radius:2px}
 #mus.on .eq i{animation:eqb .9s ease-in-out infinite}#mus.on .eq i:nth-child(2){animation-delay:.3s}#mus.on .eq i:nth-child(3){animation-delay:.6s}
 @keyframes eqb{0%,100%{height:5px}50%{height:16px}}@media(prefers-reduced-motion:reduce){#mus.on .eq i{animation:none;height:12px}}
-.mock{display:block;margin:0 auto 22px;width:min(94vw,520px);height:auto;border-radius:16px}</style></head><body>
-<header class="hero"><div class="w">
-<img class="mock" id="heroCover" alt="Kitabu Build Yourself Before You Build Your Life cha LUSHAGU juu ya meza ya mbao" width="520" height="520"><div class="tag">LUSHAGU</div>
-<h1>BUILD YOURSELF BEFORE YOU BUILD YOUR LIFE</h1>
-<p class="lead">Jijenge. Jitawale. Wajibika. Kisha jenga maisha unayotaka.</p>
-<p class="mute">Kitabu cha kujijenga, kukuza nidhamu binafsi na kujifunza kubeba wajibu wa maisha yako.</p>
-<p class="row" style="justify-content:center"><a class="btn alt" href="#kinahusu">GUNDUA KITABU</a><a class="btn" href="#nunua" id="heroBuy">NUNUA KITABU</a></p>
-<p class="note">Kitabu cha kidijitali (PDF) &middot; Kimeandikwa kwa Kiingereza &middot; Zaidi ya kurasa 300</p>
+</style></head><body>
+<a class="skip" href="#main" data-i18n="skip">Skip to content</a>
+<header class="nav"><div class="w">
+<a class="brand" href="#top" aria-label="BUILD YOURSELF">BUILD<b> &middot; </b>YOURSELF</a>
+<nav aria-label="Main"><ul><li><a href="#book" data-i18n="n_book">The Book</a></li><li><a href="#inside" data-i18n="n_inside">Inside</a></li><li><a href="#preview" data-i18n="n_preview">Preview</a></li></ul></nav>
+<div id="langbar" role="group" aria-label="Language"><button type="button" data-l="en" aria-pressed="true">EN</button><button type="button" data-l="sw" aria-pressed="false">SW</button></div>
+<a class="btn nbuy" href="#buy" data-i18n="n_buy">Buy</a>
 </div></header>
-
-<section id="kinahusu"><div class="w">
-<h2>Kitabu hiki kinahusu nini?</h2>
-<p><b>Kabla hujajenga maisha unayotaka, jijenge wewe mwenyewe.</b></p>
-<p>Watu wengi wanatamani mafanikio, fedha, mahusiano mazuri na uhuru. Lakini si kila mtu anajiandaa kuwa mtu anayeweza kubeba majukumu yanayoambatana na mambo hayo.</p>
-<p><i>Build Yourself Before You Build Your Life</i> ni kitabu kinachokualika kujichunguza kwa uaminifu, kujenga nidhamu, kujitawala na kuchukua wajibu wa maamuzi yako.</p>
-<p>Si kitabu cha maneno ya motisha ya muda mfupi. Ni mwaliko wa kujenga tabia na uwezo wa kuwa mtu unayeweza kumtegemea wewe mwenyewe.</p>
-<h2 style="margin-top:34px">Kitabu hiki ni kwa nani?</h2>
-<p>Kimeandikwa kwa ajili ya wanaume wanaotaka kukua katika tabia, nidhamu na uwajibikaji, hasa vijana wanaoingia utu uzima.</p>
-<p>Kinaweza kuwafaa wanafunzi, wanaojiajiri, wanaopitia changamoto za maisha na wanaume wanaotaka kujijenga upya baada ya kushindwa.</p>
-<h2 style="margin-top:34px">Utajifunza nini?</h2>
-<div class="learn"><div class="lc"><i></i>Nidhamu na kujizuia</div><div class="lc"><i></i>Kujiheshimu na kudhibiti hisia</div><div class="lc"><i></i>Kushindwa, maumivu na kukataliwa</div><div class="lc"><i></i>Mahusiano na mawasiliano</div><div class="lc"><i></i>Pesa, kazi na ujuzi</div><div class="lc"><i></i>Uongozi, mipaka na uwajibikaji</div><div class="lc"><i></i>Afya na kujilinda</div></div>
+<main id="main">
+<section class="hero" id="top"><div class="w">
+<div class="hcopy">
+<p class="eyebrow" data-i18n="e_by">By Ntemi M. Lushagu</p>
+<h1>Build Yourself Before You Build Your Life</h1>
+<p class="tagline" data-i18n="tagline">Build Yourself. Then Build Your Life.</p>
+<p class="sub" data-i18n="herosub">A book on building yourself, growing self-discipline and learning to carry responsibility for your own life.</p>
+<div class="cta"><a class="btn" id="heroBuy" href="#buy">BUY THE BOOK &mdash; TSh 7,500</a><a class="btn ghost" href="#book" data-i18n="explore">Explore the book</a></div>
+<ul class="badges"><li data-i18n="b1">Digital book (PDF)</li><li data-i18n="b2">Written in English</li><li data-i18n="b3">Over 300 pages</li><li data-i18n="b4">4 parts &middot; 23 chapters</li></ul>
+</div>
+<div class="bookwrap"><div class="book3d"><img id="heroCover" src="cover.jpg" width="520" height="780" fetchpriority="high" alt="Cover of Build Yourself Before You Build Your Life by Ntemi M. Lushagu" data-i18n-alt="heroalt"></div></div>
 </div></section>
 
-<section><div class="w"><h2>Ndani ya kitabu</h2><p class="mute">Sehemu 4, sura 23. Gusa sehemu uone sura zake.</p><div id="toc"></div></div></section>
+<section id="book"><div class="w"><div class="prose">
+<p class="eyebrow rv" data-i18n="e_book">The book</p>
+<h2 class="rv" data-i18n="h_about">What is this book about?</h2>
+<p class="lead2 rv"><b data-i18n="a_b">Before you build the life you want, build yourself.</b></p>
+<p class="rv" data-i18n="a_p2">Many people want success, money, good relationships and freedom. But not everyone prepares to become the kind of person who can carry the responsibilities that come with them.</p><p class="rv" data-i18n="a_p3"><i>Build Yourself Before You Build Your Life</i> invites you to examine yourself honestly, build discipline, master yourself and take responsibility for your decisions.</p><p class="rv" data-i18n="a_p4">It is not a book of short-lived motivational words. It is an invitation to build the habits and capability to become someone you can depend on.</p>
+<blockquote class="pq rv"><span data-i18n="pq">Before you build your life, build yourself.</span><cite data-i18n="pq_by">From the Author’s Note</cite></blockquote>
+<h3 class="rv" data-i18n="h_who">Who is this book for?</h3>
+<p class="rv" data-i18n="who1">It is written for men who want to grow in character, discipline and responsibility, especially young men entering adulthood.</p><p class="rv" data-i18n="who2">It may suit students, the self-employed, people going through life’s challenges, and men who want to rebuild themselves after failure.</p>
+</div>
+<h3 class="rv" data-i18n="h_learn">What will you learn?</h3>
+<div class="learn rv"><div class="lc"><i></i><span data-i18n="l1">Discipline and self-control</span></div><div class="lc"><i></i><span data-i18n="l2">Self-respect and emotional control</span></div><div class="lc"><i></i><span data-i18n="l3">Failure, pain and rejection</span></div><div class="lc"><i></i><span data-i18n="l4">Relationships and communication</span></div><div class="lc"><i></i><span data-i18n="l5">Money, work and skill</span></div><div class="lc"><i></i><span data-i18n="l6">Leadership, boundaries and responsibility</span></div><div class="lc"><i></i><span data-i18n="l7">Health and protecting yourself</span></div></div>
+</div></section>
 
-<section><div class="w"><h2>Tazama kurasa za kitabu</h2><p class="mute">Gusa ukurasa wowote kuukuza.</p><div class="gal" id="gal"></div></div></section>
+<section id="inside" class="alt"><div class="w split">
+<div class="rv"><p class="eyebrow" data-i18n="e_inside">Contents</p><h2 data-i18n="h_inside">Inside the book</h2><p class="mute" data-i18n="inside_p">4 parts, 23 chapters. Tap a part to see its chapters.</p></div>
+<div class="rv"><details open><summary data-i18n="part0">Part 1: Build Yourself</summary><ol start="1"><li>What Makes a Man?</li><li>Discipline</li><li>Self-Control</li><li>Self-Respect</li><li>Failure and Rejection</li><li>Emotional Control</li><li>Women, Attraction and Desire</li><li>Purpose and Direction</li></ol></details><details><summary data-i18n="part1">Part 2: Carry Your Responsibility</summary><ol start="9"><li>Responsibility</li><li>Boundaries</li><li>Man Communication</li><li>Time and Attention</li><li>Decision Making</li><li>Consistency</li></ol></details><details><summary data-i18n="part2">Part 3: Become Capable</summary><ol start="15"><li>Leadership</li><li>Money and Financial Independence</li><li>Body, Health and Physical Strength</li><li>Sex and Sexual Responsibility</li><li>Friendship and Brotherhood</li><li>Work, Skill and Competence</li></ol></details><details><summary data-i18n="part3">Part 4: Stand Through Life</summary><ol start="21"><li>Failure, Pain and Resilience</li><li>Conflict and Negotiation</li><li>Security and Protecting Yourself</li></ol></details></div>
+</div></section>
 
-<section id="nunua"><div class="w"><h2>Pata nakala yako leo</h2>
-<div class="pay" style="text-align:center"><div class="tag" style="margin-bottom:8px">BUILD YOURSELF BEFORE YOU BUILD YOUR LIFE</div>
-<div class="mute">Na LUSHAGU</div><div class="price" id="price" style="margin:10px 0"></div>
-<p style="margin-bottom:6px">Kitabu kamili katika PDF.</p><p style="margin-bottom:6px">Kimeandikwa kwa Kiingereza.</p>
-<p>Utapokea kitabu kupitia WhatsApp baada ya malipo kuthibitishwa.</p>
-<button class="btn" id="buyBtn" type="button">NUNUA KITABU SASA</button></div>
-<div id="checkout" hidden><p><b>Baada ya kulipa, wasilisha taarifa za muamala wako.</b> Tutathibitisha malipo kwenye akaunti yetu na kukutumia kitabu kupitia WhatsApp baada ya oda yako kuchakatwa.</p>
-<ol class="steps">
-<li>Tuma malipo kwenda namba iliyo hapa chini.</li>
-<li>Nakili ujumbe wa muamala uliopokea kwenye simu yako.</li>
-<li>Bandika (paste) ujumbe huo kwenye kisanduku hapa chini, kisha bonyeza <b>Tuma WhatsApp</b>.</li>
-<li>Tutathibitisha malipo kwenye akaunti yetu, kisha tutakutumia kitabu kupitia WhatsApp.</li></ol>
-<div class="pay"><div class="note" id="net"></div><div class="num" id="paynum"></div><div class="mute" id="payname"></div>
-<div class="row"><button class="btn alt" id="copy" type="button">Nakili namba</button><span class="note" id="copied"></span></div></div>
-<label for="nm">Jina lako</label><input id="nm" autocomplete="name" placeholder="Jina kamili">
-<label for="tx">Bandika ujumbe wa muamala</label><textarea id="tx" placeholder="Bandika hapa ujumbe uliotumiwa na M-Pesa / Tigo Pesa / Airtel Money..."></textarea>
-<p style="margin-top:16px"><a class="btn" id="wa" href="#" target="_blank" rel="noopener">Tuma WhatsApp</a></p>
-<p class="note">Kitabu kinatumwa baada ya malipo kuthibitishwa kwenye akaunti yetu. Una swali kabla ya kununua? <a id="ask" href="#" target="_blank" rel="noopener" style="color:var(--acc)">Tuulize WhatsApp</a>.</p><p class="track"><b>FATILIA ODA</b> kupitia SMS/CALL <a href="tel:+255685848878">+255685848878</a> &middot; <a href="sms:+255685848878">Tuma SMS</a></p>
-</div></div></section>
+<section id="preview" class="dark"><div class="w">
+<p class="eyebrow rv" data-i18n="e_prev">Preview</p><h2 class="rv" data-i18n="h_gal">A look inside the book</h2><p class="mute" style="margin-bottom:34px" data-i18n="gal_p">Tap any page to enlarge it.</p>
+<div class="gal" id="gal"><button type="button" data-src="page-01.jpg" data-cap="Author’s Note"><div class="th"><img src="page-01.jpg" alt="Author’s Note" loading="lazy" width="600" height="800"></div><span>Author’s Note</span></button><button type="button" data-src="page-02.jpg" data-cap="Contents"><div class="th"><img src="page-02.jpg" alt="Contents" loading="lazy" width="600" height="800"></div><span>Contents</span></button><button type="button" data-src="page-03.jpg" data-cap="What Makes a Man?"><div class="th"><img src="page-03.jpg" alt="What Makes a Man?" loading="lazy" width="600" height="800"></div><span>What Makes a Man?</span></button><button type="button" data-src="page-04.jpg" data-cap="Self-Respect: The Power of NO"><div class="th"><img src="page-04.jpg" alt="Self-Respect: The Power of NO" loading="lazy" width="600" height="800"></div><span>Self-Respect: The Power of NO</span></button><button type="button" data-src="page-05.jpg" data-cap="Emotional Control"><div class="th"><img src="page-05.jpg" alt="Emotional Control" loading="lazy" width="600" height="800"></div><span>Emotional Control</span></button><button type="button" data-src="page-06.jpg" data-cap="Emotional Control: The Pause"><div class="th"><img src="page-06.jpg" alt="Emotional Control: The Pause" loading="lazy" width="600" height="800"></div><span>Emotional Control: The Pause</span></button><button type="button" data-src="page-07.jpg" data-cap="Women, Attraction and Desire"><div class="th"><img src="page-07.jpg" alt="Women, Attraction and Desire" loading="lazy" width="600" height="800"></div><span>Women, Attraction and Desire</span></button><button type="button" data-src="page-08.jpg" data-cap="Purpose and Direction"><div class="th"><img src="page-08.jpg" alt="Purpose and Direction" loading="lazy" width="600" height="800"></div><span>Purpose and Direction</span></button><button type="button" data-src="page-09.jpg" data-cap="Purpose and Direction: The Gap"><div class="th"><img src="page-09.jpg" alt="Purpose and Direction: The Gap" loading="lazy" width="600" height="800"></div><span>Purpose and Direction: The Gap</span></button><button type="button" data-src="page-10.jpg" data-cap="Purpose and Direction: The Direction Audit"><div class="th"><img src="page-10.jpg" alt="Purpose and Direction: The Direction Audit" loading="lazy" width="600" height="800"></div><span>Purpose and Direction: The Direction Audit</span></button><button type="button" data-src="page-11.jpg" data-cap="Boundaries"><div class="th"><img src="page-11.jpg" alt="Boundaries" loading="lazy" width="600" height="800"></div><span>Boundaries</span></button><button type="button" data-src="page-12.jpg" data-cap="Boundaries: Say No, Give a Better Yes"><div class="th"><img src="page-12.jpg" alt="Boundaries: Say No, Give a Better Yes" loading="lazy" width="600" height="800"></div><span>Boundaries: Say No, Give a Better Yes</span></button><button type="button" data-src="page-13.jpg" data-cap="Decision Making"><div class="th"><img src="page-13.jpg" alt="Decision Making" loading="lazy" width="600" height="800"></div><span>Decision Making</span></button><button type="button" data-src="page-14.jpg" data-cap="Decision Making: Emotional Storms"><div class="th"><img src="page-14.jpg" alt="Decision Making: Emotional Storms" loading="lazy" width="600" height="800"></div><span>Decision Making: Emotional Storms</span></button><button type="button" data-src="page-15.jpg" data-cap="Decision Making: The Decision Audit"><div class="th"><img src="page-15.jpg" alt="Decision Making: The Decision Audit" loading="lazy" width="600" height="800"></div><span>Decision Making: The Decision Audit</span></button><button type="button" data-src="page-16.jpg" data-cap="Money and Financial Independence"><div class="th"><img src="page-16.jpg" alt="Money and Financial Independence" loading="lazy" width="600" height="800"></div><span>Money and Financial Independence</span></button><button type="button" data-src="page-17.jpg" data-cap="Money: The Money Audit"><div class="th"><img src="page-17.jpg" alt="Money: The Money Audit" loading="lazy" width="600" height="800"></div><span>Money: The Money Audit</span></button><button type="button" data-src="page-18.jpg" data-cap="Sex and Sexual Responsibility"><div class="th"><img src="page-18.jpg" alt="Sex and Sexual Responsibility" loading="lazy" width="600" height="800"></div><span>Sex and Sexual Responsibility</span></button><button type="button" data-src="page-19.jpg" data-cap="Conflict and Negotiation"><div class="th"><img src="page-19.jpg" alt="Conflict and Negotiation" loading="lazy" width="600" height="800"></div><span>Conflict and Negotiation</span></button></div>
+</div></section>
 
-<footer><div class="w"><p class="track"><b>FATILIA ODA</b> kupitia SMS/CALL <a href="tel:+255685848878">+255685848878</a> &middot; <a href="sms:+255685848878">Tuma SMS</a></p><br>&copy; 2026 Ntemi M. Lushagu &middot; Tanzania<br>Haki zote zimehifadhiwa.</div></footer>
-
-<script>
-// ===== BADILISHA HAPA TU =====
-var CFG={price:"TSh 7,500",network:"Tuma malipo kwenda namba hii:",payNumber:"0723 546 510",payName:"Jina la akaunti: Ntemi Lushagu",whatsapp:"255723546510"};
-// =============================
-var parts=[["Sehemu ya 1: Jijenge",["What Makes a Man?","Discipline","Self-Control","Self-Respect","Failure and Rejection","Emotional Control","Women, Attraction and Desire","Purpose and Direction"]],
-["Sehemu ya 2: Beba wajibu wako",["Responsibility","Boundaries","Man Communication","Time and Attention","Decision Making","Consistency"]],
-["Sehemu ya 3: Kuwa na uwezo",["Leadership","Money and Financial Independence","Body, Health and Physical Strength","Sex and Sexual Responsibility","Friendship and Brotherhood","Work, Skill and Competence"]],
-["Sehemu ya 4: Simama imara",["Failure, Pain and Resilience","Conflict and Negotiation","Security and Protecting Yourself"]]];
-var n=1,toc=document.getElementById("toc");
-parts.forEach(function(p,i){var d=document.createElement("details");if(i===0)d.open=true;
-var s=document.createElement("summary");s.textContent=p[0];d.appendChild(s);var ol=document.createElement("ol");ol.start=n;
-p[1].forEach(function(c){var li=document.createElement("li");li.textContent=c;ol.appendChild(li);n++});d.appendChild(ol);toc.appendChild(d)});
-document.getElementById("price").textContent=CFG.price;
-document.getElementById("net").textContent=CFG.network;
-document.getElementById("paynum").textContent=CFG.payNumber;
-document.getElementById("payname").textContent=CFG.payName;
-var base="https://wa.me/"+CFG.whatsapp;
-document.getElementById("ask").href=base+"?text="+encodeURIComponent("Habari, nina swali kuhusu kitabu cha Build Yourself Before You Build Your Life.");
-function upd(){var nm=document.getElementById("nm").value.trim(),tx=document.getElementById("tx").value.trim();
-var m="Habari, nimelipia kitabu cha Build Yourself Before You Build Your Life."+(nm?"\nJina: "+nm:"")+"\n\nMuamala:\n"+(tx||"(nitabandika muamala hapa)");
-document.getElementById("wa").href=base+"?text="+encodeURIComponent(m)}
-document.getElementById("nm").addEventListener("input",upd);document.getElementById("tx").addEventListener("input",upd);upd();
-document.getElementById("copy").addEventListener("click",function(){var t=CFG.payNumber.replace(/\s/g,""),o=document.getElementById("copied");
-function ok(){o.textContent="Imenakiliwa"}
+<section id="buy"><div class="w">
+<p class="eyebrow rv" data-i18n="e_get">Get your copy</p><h2 class="rv" data-i18n="h_get">Get your copy today</h2>
+<div class="buy">
+<div class="shot rv"><img src="mockup.jpg" loading="lazy" width="1080" height="1080" alt="The book Build Yourself Before You Build Your Life on a wooden desk" data-i18n-alt="mockalt"></div>
+<div class="card rv"><div class="btitle">BUILD YOURSELF BEFORE YOU BUILD YOUR LIFE</div><div class="by" data-i18n="by">By Ntemi M. Lushagu</div>
+<div class="price js-price" id="price">TSh 7,500</div>
+<ul class="ticks"><li data-i18n="pdf">The complete book as a PDF.</li><li data-i18n="written">Written in English.</li><li data-i18n="recv">You will receive the book via WhatsApp after your payment has been verified.</li></ul>
+<button class="btn" id="buyBtn" type="button" data-i18n="buy">BUY THE BOOK NOW</button></div>
+</div>
+<div id="checkout" class="checkout" hidden><p data-i18n="co_intro"><b>After paying, submit your transaction details.</b> We will verify the payment on our account and send you the book via WhatsApp once your order has been processed.</p>
+<ol class="steps"><li data-i18n="st1">Send the payment to the number below.</li><li data-i18n="st2">Copy the transaction message you received on your phone.</li><li data-i18n="st3">Paste that message into the box below, then press <b>Send on WhatsApp</b>.</li><li data-i18n="st4">We will verify the payment on our account, then send you the book via WhatsApp.</li></ol>
+<div class="pay"><div class="note" data-i18n="net">Send payment to this number:</div><div class="num" id="paynum"></div><div class="mute" data-i18n="payname">Account name: Ntemi Lushagu</div>
+<div class="row"><button class="btn dk" id="copy" type="button" data-i18n="copy">Copy number</button><span class="note" id="copied" aria-live="polite"></span></div></div>
+<label for="nm" data-i18n="lbl_name">Your name</label><input id="nm" autocomplete="name" placeholder="Full name" data-i18n-ph="ph_name">
+<label for="tx" data-i18n="lbl_tx">Paste the transaction message</label><textarea id="tx" placeholder="Paste here the message sent by M-Pesa / Tigo Pesa / Airtel Money..." data-i18n-ph="ph_tx"></textarea>
+<p style="margin-top:20px"><a class="btn" id="wa" href="#" target="_blank" rel="noopener" data-i18n="send">Send on WhatsApp</a></p>
+<p class="note" data-i18n="note_q">The book is sent after the payment is verified on our account. Have a question before buying? <a id="ask" href="#" target="_blank" rel="noopener">Ask us on WhatsApp</a>.</p><p class="track" data-i18n="track"><b>TRACK YOUR ORDER</b> by SMS/CALL <a href="tel:+255685848878">+255685848878</a> &middot; <a href="sms:+255685848878">Send SMS</a></p>
+</div>
+</div></section>
+</main>
+<footer><div class="w fgrid">
+<div><a class="brand" href="#top">BUILD<b> &middot; </b>YOURSELF</a><p class="tagline" data-i18n="tagline">Build Yourself. Then Build Your Life.</p></div>
+<div><p class="track" data-i18n="track"><b>TRACK YOUR ORDER</b> by SMS/CALL <a href="tel:+255685848878">+255685848878</a> &middot; <a href="sms:+255685848878">Send SMS</a></p></div></div>
+<div class="w"><div class="copy">&copy; 2026 Ntemi M. Lushagu &middot; Tanzania &middot; <span data-i18n="rights">All rights reserved.</span></div></div></footer>
+<button id="mus" type="button" aria-pressed="false" aria-label="Play the book song"><span class="eq" aria-hidden="true"><i></i><i></i><i></i></span><span id="mustxt">Play song</span></button>
+<script>// ===== EDIT HERE ONLY =====
+var CFG={price:"TSh 7,500",payNumber:"0723 546 510",whatsapp:"255723546510"};
+// ==========================
+var D={"en": {"skip": "Skip to content", "n_book": "The Book", "n_inside": "Inside", "n_preview": "Preview", "n_buy": "Buy", "e_by": "By Ntemi M. Lushagu", "tagline": "Build Yourself. Then Build Your Life.", "herosub": "A book on building yourself, growing self-discipline and learning to carry responsibility for your own life.", "explore": "Explore the book", "herobuy": "BUY THE BOOK", "b1": "Digital book (PDF)", "b2": "Written in English", "b3": "Over 300 pages", "b4": "4 parts &middot; 23 chapters", "heroalt": "Cover of Build Yourself Before You Build Your Life by Ntemi M. Lushagu", "mockalt": "The book Build Yourself Before You Build Your Life on a wooden desk", "e_book": "The book", "h_about": "What is this book about?", "a_b": "Before you build the life you want, build yourself.", "a_p2": "Many people want success, money, good relationships and freedom. But not everyone prepares to become the kind of person who can carry the responsibilities that come with them.", "a_p3": "<i>Build Yourself Before You Build Your Life</i> invites you to examine yourself honestly, build discipline, master yourself and take responsibility for your decisions.", "a_p4": "It is not a book of short-lived motivational words. It is an invitation to build the habits and capability to become someone you can depend on.", "pq": "Before you build your life, build yourself.", "pq_by": "From the Author’s Note", "h_who": "Who is this book for?", "who1": "It is written for men who want to grow in character, discipline and responsibility, especially young men entering adulthood.", "who2": "It may suit students, the self-employed, people going through life’s challenges, and men who want to rebuild themselves after failure.", "h_learn": "What will you learn?", "l1": "Discipline and self-control", "l2": "Self-respect and emotional control", "l3": "Failure, pain and rejection", "l4": "Relationships and communication", "l5": "Money, work and skill", "l6": "Leadership, boundaries and responsibility", "l7": "Health and protecting yourself", "e_inside": "Contents", "h_inside": "Inside the book", "inside_p": "4 parts, 23 chapters. Tap a part to see its chapters.", "part0": "Part 1: Build Yourself", "part1": "Part 2: Carry Your Responsibility", "part2": "Part 3: Become Capable", "part3": "Part 4: Stand Through Life", "e_prev": "Preview", "h_gal": "A look inside the book", "gal_p": "Tap any page to enlarge it.", "prev": "Previous", "next": "Next", "close": "Close", "dlg": "Book page", "e_get": "Get your copy", "h_get": "Get your copy today", "by": "By Ntemi M. Lushagu", "pdf": "The complete book as a PDF.", "written": "Written in English.", "recv": "You will receive the book via WhatsApp after your payment has been verified.", "buy": "BUY THE BOOK NOW", "co_intro": "<b>After paying, submit your transaction details.</b> We will verify the payment on our account and send you the book via WhatsApp once your order has been processed.", "st1": "Send the payment to the number below.", "st2": "Copy the transaction message you received on your phone.", "st3": "Paste that message into the box below, then press <b>Send on WhatsApp</b>.", "st4": "We will verify the payment on our account, then send you the book via WhatsApp.", "net": "Send payment to this number:", "payname": "Account name: Ntemi Lushagu", "copy": "Copy number", "copied": "Copied", "lbl_name": "Your name", "ph_name": "Full name", "lbl_tx": "Paste the transaction message", "ph_tx": "Paste here the message sent by M-Pesa / Tigo Pesa / Airtel Money...", "send": "Send on WhatsApp", "note_q": "The book is sent after the payment is verified on our account. Have a question before buying? <a id=\"ask\" href=\"#\" target=\"_blank\" rel=\"noopener\">Ask us on WhatsApp</a>.", "track": "<b>TRACK YOUR ORDER</b> by SMS/CALL <a href=\"tel:+255685848878\">+255685848878</a> &middot; <a href=\"sms:+255685848878\">Send SMS</a>", "rights": "All rights reserved.", "play": "Play song", "pause": "Pause song", "nosong": "Song unavailable", "musaria": "Play the book song", "wa_ask": "Hello, I have a question about the book Build Yourself Before You Build Your Life.", "wa_paid": "Hello, I have paid for the book Build Yourself Before You Build Your Life.", "wa_name": "Name:", "wa_txn": "Transaction:", "wa_ph": "(I will paste the transaction here)"}, "sw": {"skip": "Ruka hadi maudhui", "n_book": "Kitabu", "n_inside": "Ndani", "n_preview": "Kurasa", "n_buy": "Nunua", "e_by": "Na Ntemi M. Lushagu", "tagline": "Jijenge. Kisha jenga maisha yako.", "herosub": "Kitabu cha kujijenga, kukuza nidhamu binafsi na kujifunza kubeba wajibu wa maisha yako.", "explore": "Gundua kitabu", "herobuy": "NUNUA KITABU", "b1": "Kitabu cha kidijitali (PDF)", "b2": "Kimeandikwa kwa Kiingereza", "b3": "Zaidi ya kurasa 300", "b4": "Sehemu 4 &middot; sura 23", "heroalt": "Cover ya kitabu Build Yourself Before You Build Your Life cha Ntemi M. Lushagu", "mockalt": "Kitabu Build Yourself Before You Build Your Life juu ya meza ya mbao", "e_book": "Kitabu", "h_about": "Kitabu hiki kinahusu nini?", "a_b": "Kabla hujajenga maisha unayotaka, jijenge wewe mwenyewe.", "a_p2": "Watu wengi wanatamani mafanikio, fedha, mahusiano mazuri na uhuru. Lakini si kila mtu anajiandaa kuwa mtu anayeweza kubeba majukumu yanayoambatana na mambo hayo.", "a_p3": "<i>Build Yourself Before You Build Your Life</i> ni kitabu kinachokualika kujichunguza kwa uaminifu, kujenga nidhamu, kujitawala na kuchukua wajibu wa maamuzi yako.", "a_p4": "Si kitabu cha maneno ya motisha ya muda mfupi. Ni mwaliko wa kujenga tabia na uwezo wa kuwa mtu unayeweza kumtegemea wewe mwenyewe.", "pq": "Before you build your life, build yourself.", "pq_by": "Kutoka kwenye Neno la Mwandishi", "h_who": "Kitabu hiki ni kwa nani?", "who1": "Kimeandikwa kwa ajili ya wanaume wanaotaka kukua katika tabia, nidhamu na uwajibikaji, hasa vijana wanaoingia utu uzima.", "who2": "Kinaweza kuwafaa wanafunzi, wanaojiajiri, wanaopitia changamoto za maisha na wanaume wanaotaka kujijenga upya baada ya kushindwa.", "h_learn": "Utajifunza nini?", "l1": "Nidhamu na kujizuia", "l2": "Kujiheshimu na kudhibiti hisia", "l3": "Kushindwa, maumivu na kukataliwa", "l4": "Mahusiano na mawasiliano", "l5": "Pesa, kazi na ujuzi", "l6": "Uongozi, mipaka na uwajibikaji", "l7": "Afya na kujilinda", "e_inside": "Yaliyomo", "h_inside": "Ndani ya kitabu", "inside_p": "Sehemu 4, sura 23. Gusa sehemu uone sura zake.", "part0": "Sehemu ya 1: Jijenge", "part1": "Sehemu ya 2: Beba wajibu wako", "part2": "Sehemu ya 3: Kuwa na uwezo", "part3": "Sehemu ya 4: Simama imara", "e_prev": "Mtazamo", "h_gal": "Tazama kurasa za kitabu", "gal_p": "Gusa ukurasa wowote kuukuza.", "prev": "Nyuma", "next": "Mbele", "close": "Funga", "dlg": "Ukurasa wa kitabu", "e_get": "Pata nakala", "h_get": "Pata nakala yako leo", "by": "Na Ntemi M. Lushagu", "pdf": "Kitabu kamili katika PDF.", "written": "Kimeandikwa kwa Kiingereza.", "recv": "Utapokea kitabu kupitia WhatsApp baada ya malipo kuthibitishwa.", "buy": "NUNUA KITABU SASA", "co_intro": "<b>Baada ya kulipa, wasilisha taarifa za muamala wako.</b> Tutathibitisha malipo kwenye akaunti yetu na kukutumia kitabu kupitia WhatsApp baada ya oda yako kuchakatwa.", "st1": "Tuma malipo kwenda namba iliyo hapa chini.", "st2": "Nakili ujumbe wa muamala uliopokea kwenye simu yako.", "st3": "Bandika (paste) ujumbe huo kwenye kisanduku hapa chini, kisha bonyeza <b>Tuma WhatsApp</b>.", "st4": "Tutathibitisha malipo kwenye akaunti yetu, kisha tutakutumia kitabu kupitia WhatsApp.", "net": "Tuma malipo kwenda namba hii:", "payname": "Jina la akaunti: Ntemi Lushagu", "copy": "Nakili namba", "copied": "Imenakiliwa", "lbl_name": "Jina lako", "ph_name": "Jina kamili", "lbl_tx": "Bandika ujumbe wa muamala", "ph_tx": "Bandika hapa ujumbe uliotumiwa na M-Pesa / Tigo Pesa / Airtel Money...", "send": "Tuma WhatsApp", "note_q": "Kitabu kinatumwa baada ya malipo kuthibitishwa kwenye akaunti yetu. Una swali kabla ya kununua? <a id=\"ask\" href=\"#\" target=\"_blank\" rel=\"noopener\">Tuulize WhatsApp</a>.", "track": "<b>FATILIA ODA</b> kupitia SMS/CALL <a href=\"tel:+255685848878\">+255685848878</a> &middot; <a href=\"sms:+255685848878\">Tuma SMS</a>", "rights": "Haki zote zimehifadhiwa.", "play": "Sikiliza wimbo", "pause": "Simamisha wimbo", "nosong": "Wimbo haupatikani", "musaria": "Cheza wimbo wa kitabu", "wa_ask": "Habari, nina swali kuhusu kitabu cha Build Yourself Before You Build Your Life.", "wa_paid": "Habari, nimelipia kitabu cha Build Yourself Before You Build Your Life.", "wa_name": "Jina:", "wa_txn": "Muamala:", "wa_ph": "(nitabandika muamala hapa)"}};
+var LANG="en";
+try{var q=new URLSearchParams(location.search).get("lang"),sv=localStorage.getItem("by_lang"),nl=(navigator.language||"").slice(0,2);
+LANG=(q==="en"||q==="sw")?q:(sv==="en"||sv==="sw")?sv:(nl==="sw"?"sw":"en")}catch(e){}
+function T(k){return (D[LANG]&&D[LANG][k])||D.en[k]||""}
+function $(id){return document.getElementById(id)}
+document.querySelectorAll(".js-price").forEach(function(e){e.textContent=CFG.price});
+$("paynum").textContent=CFG.payNumber;
+function links(){var base="https://wa.me/"+CFG.whatsapp,a=$("ask");if(a)a.href=base+"?text="+encodeURIComponent(T("wa_ask"));
+var nm=$("nm").value.trim(),tx=$("tx").value.trim();
+$("wa").href=base+"?text="+encodeURIComponent(T("wa_paid")+(nm?"\n"+T("wa_name")+" "+nm:"")+"\n\n"+T("wa_txn")+"\n"+(tx||T("wa_ph")))}
+/* lightbox */
+var gal=[].slice.call(document.querySelectorAll("#gal button")),lb=document.createElement("div"),cur=0,opener=null;
+lb.id="lb";lb.setAttribute("role","dialog");lb.setAttribute("aria-modal","true");
+lb.innerHTML='<div class="sc"><img alt=""></div><div class="cap"></div><div class="bar"><button type="button" data-a="p" data-i18n="prev"></button><button type="button" data-a="n" data-i18n="next"></button><button type="button" data-a="c" data-i18n="close"></button></div>';
+document.body.appendChild(lb);
+function show(i){cur=(i+gal.length)%gal.length;var b=gal[cur],im=lb.querySelector("img");lb.querySelector(".sc").scrollTop=0;im.src=b.getAttribute("data-src");im.alt=b.getAttribute("data-cap");lb.querySelector(".cap").textContent=b.getAttribute("data-cap")+" ("+(cur+1)+"/"+gal.length+")"}
+function openLb(i){opener=document.activeElement;show(i);lb.classList.add("on");lb.querySelector('[data-a="c"]').focus()}
+function closeLb(){lb.classList.remove("on");if(opener)opener.focus()}
+gal.forEach(function(b,i){b.addEventListener("click",function(){openLb(i)})});
+lb.addEventListener("click",function(e){var a=e.target.getAttribute&&e.target.getAttribute("data-a");if(a==="p")show(cur-1);else if(a==="n")show(cur+1);else if(a==="c"||e.target===lb)closeLb()});
+document.addEventListener("keydown",function(e){if(!lb.classList.contains("on"))return;if(e.key==="Escape")closeLb();if(e.key==="ArrowLeft")show(cur-1);if(e.key==="ArrowRight")show(cur+1)});
+/* language */
+function apply(){document.documentElement.lang=LANG;
+document.querySelectorAll("[data-i18n]").forEach(function(e){e.innerHTML=T(e.getAttribute("data-i18n"))});
+document.querySelectorAll("[data-i18n-ph]").forEach(function(e){e.placeholder=T(e.getAttribute("data-i18n-ph"))});
+document.querySelectorAll("[data-i18n-alt]").forEach(function(e){e.alt=T(e.getAttribute("data-i18n-alt"))});
+$("heroBuy").textContent=T("herobuy")+" \u2014 "+CFG.price;
+lb.setAttribute("aria-label",T("dlg"));
+var m=$("mus");m.setAttribute("aria-label",T("musaria"));$("mustxt").textContent=m.classList.contains("on")?T("pause"):T("play");
+document.querySelectorAll("#langbar button").forEach(function(b){b.setAttribute("aria-pressed",b.getAttribute("data-l")===LANG?"true":"false")});
+links()}
+document.querySelectorAll("#langbar button").forEach(function(b){b.addEventListener("click",function(){LANG=b.getAttribute("data-l");try{localStorage.setItem("by_lang",LANG)}catch(e){}apply()})});
+$("nm").addEventListener("input",links);$("tx").addEventListener("input",links);
+/* buy */
+$("buyBtn").addEventListener("click",function(){$("checkout").hidden=false;$("buyBtn").hidden=true;$("checkout").scrollIntoView({behavior:"smooth",block:"start"})});
+$("copy").addEventListener("click",function(){var t=CFG.payNumber.replace(/\s/g,""),o=$("copied");function ok(){o.textContent=T("copied")}
 try{navigator.clipboard.writeText(t).then(ok,function(){o.textContent=t})}catch(e){o.textContent=t}});
-</script><script>
-var MOCK="mockup.jpg";
-var IMGS=[["Cover", "cover.jpg"], ["Author's Note", "page-01.jpg"], ["Contents", "page-02.jpg"], ["What Makes a Man?", "page-03.jpg"], ["Self-Respect: The Power of NO", "page-04.jpg"], ["Emotional Control", "page-05.jpg"], ["Emotional Control: The Pause", "page-06.jpg"], ["Women, Attraction and Desire", "page-07.jpg"], ["Purpose and Direction", "page-08.jpg"], ["Purpose and Direction: The Gap", "page-09.jpg"], ["Purpose and Direction: The Direction Audit", "page-10.jpg"], ["Boundaries", "page-11.jpg"], ["Boundaries: Say No, Give a Better Yes", "page-12.jpg"], ["Decision Making", "page-13.jpg"], ["Decision Making: Emotional Storms", "page-14.jpg"], ["Decision Making: The Decision Audit", "page-15.jpg"], ["Money and Financial Independence", "page-16.jpg"], ["Money: The Money Audit", "page-17.jpg"], ["Sex and Sexual Responsibility", "page-18.jpg"], ["Conflict and Negotiation", "page-19.jpg"]];
-(function(){var g=document.getElementById("gal"),lb=document.createElement("div"),cur=0;lb.id="lb";lb.setAttribute("role","dialog");lb.setAttribute("aria-label","Ukurasa wa kitabu");
-lb.innerHTML='<div class="sc"><img alt=""></div><div class="cap"></div><div class="bar"><button type="button" data-a="p">Nyuma</button><button type="button" data-a="n">Mbele</button><button type="button" data-a="c">Funga</button></div>';document.body.appendChild(lb);
-document.getElementById("heroCover").src=MOCK;
-function show(i){lb.querySelector(".sc").scrollTop=0;cur=(i+IMGS.length)%IMGS.length;lb.querySelector("img").src=IMGS[cur][1];lb.querySelector("img").alt=IMGS[cur][0];lb.querySelector(".cap").textContent=IMGS[cur][0]+" ("+(cur+1)+"/"+IMGS.length+")";}
-function open_(i){show(i);lb.classList.add("on");lb.querySelector('[data-a="c"]').focus()}
-function close_(){lb.classList.remove("on")}
-IMGS.forEach(function(it,i){var b=document.createElement("button");b.type="button";var t=document.createElement("div");t.className="th";var im=document.createElement("img");im.src=it[1];im.alt=it[0];im.loading="lazy";t.appendChild(im);var s=document.createElement("span");s.textContent=it[0];b.appendChild(t);b.appendChild(s);b.addEventListener("click",function(){open_(i)});g.appendChild(b)});
-lb.addEventListener("click",function(e){var a=e.target.getAttribute&&e.target.getAttribute("data-a");if(a==="p")show(cur-1);else if(a==="n")show(cur+1);else if(a==="c"||e.target===lb)close_()});
-document.addEventListener("keydown",function(e){if(!lb.classList.contains("on"))return;if(e.key==="Escape")close_();if(e.key==="ArrowLeft")show(cur-1);if(e.key==="ArrowRight")show(cur+1)});
-})();
-</script><script>
-(function(){document.getElementById("heroBuy").textContent="NUNUA KITABU \u2014 "+CFG.price;
-var b=document.getElementById("buyBtn"),c=document.getElementById("checkout");
-b.addEventListener("click",function(){c.hidden=false;b.hidden=true;c.scrollIntoView({behavior:"smooth",block:"start"})});})();
-</script><button id="mus" type="button" aria-pressed="false" aria-label="Cheza wimbo wa kitabu"><span class="eq" aria-hidden="true"><i></i><i></i><i></i></span><span id="mustxt">Sikiliza wimbo</span></button><script>
-var SONG="song.m4a";
-(function(){var b=document.getElementById("mus"),t=document.getElementById("mustxt"),au=null,on=false;
-function ui(){b.classList.toggle("on",on);b.setAttribute("aria-pressed",on?"true":"false");t.textContent=on?"Simamisha wimbo":"Sikiliza wimbo"}
+/* music */
+(function(){var b=$("mus"),t=$("mustxt"),au=null,on=false;
+function ui(){b.classList.toggle("on",on);b.setAttribute("aria-pressed",on?"true":"false");t.textContent=on?T("pause"):T("play")}
 b.addEventListener("click",function(){
-if(!au){au=new Audio(SONG);au.loop=true;au.volume=.8;au.addEventListener("error",function(){on=false;ui();t.textContent="Wimbo haupatikani"})}
+if(!au){au=new Audio("song.m4a");au.loop=true;au.volume=.8;au.addEventListener("error",function(){on=false;ui();t.textContent=T("nosong")})}
 if(on){au.pause();on=false;ui();return}
-var r=au.play();if(r&&r.then){r.then(function(){on=true;ui()}).catch(function(){on=false;t.textContent="Wimbo haupatikani"})}else{on=true;ui()}});
+var r=au.play();if(r&&r.then){r.then(function(){on=true;ui()}).catch(function(){on=false;t.textContent=T("nosong")})}else{on=true;ui()}});
 })();
-</script></body></html>
+/* reveal on scroll */
+var rv=[].slice.call(document.querySelectorAll(".rv"));
+if("IntersectionObserver" in window){var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add("in");io.unobserve(e.target)}})},{threshold:.12});rv.forEach(function(e){io.observe(e)})}else{rv.forEach(function(e){e.classList.add("in")})}
+apply();
+</script>
+</body></html>

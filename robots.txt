@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+Disallow: /admin
+Disallow: /orders
+Disallow: /order
+Disallow: /checkout
+Disallow: /api/
+
+Sitemap: https://buildyourself-iaiu.onrender.com/sitemap.xml
